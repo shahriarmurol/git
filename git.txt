@@ -1,0 +1,111 @@
+---------------- git learning -------------
+
+
+step -1 : usern info config
+---------------------------
+
+	$ git config --global user.name "shahriar"
+
+	$ git config --global user.email "shahriarmurolcse@gmail.com"
+
+	//check
+	git config user.name
+	git config user.email
+
+step-2 : create git(prepository)
+---------------------------
+	# repository = folder
+
+	# directory = ~ means home directory
+
+	//presend directory
+	# pwd
+
+	//change directory
+	cd desktop/project
+
+	//for git initializetion
+	git init
+
+
+step-2 : file save, edit, change
+--------------------------------
+# touch index.html //file create
+
+# git status //for status
+
+//add one fiel
+# git add new.txt //for add file in git
+
+
+//add all file
+git add . 
+
+//add one type extension
+git add *.html
+
+step-3: every chang you access that is git commit
+---------------------------------------------------
+//porbo borti command up arrow or down arroy
+
+# git commit -m "your message" //-m mane message
+
+// clear for git bash clear
+
+# git rm net2.txt //for delete
+
+# git log
+
+step - 4 : 
+-----------------------------------------------
+//file move / rename mv 
+
+# git mv style.css mystyle.css //rename
+
+# mkdir folderName
+
+# git mv mystyle.css css/mystyle.css
+
+# git mv filename direcrory/file_changed_name
+ //file rename with move
+
+
+step - 5 : server(bitbucket)
+---------------------------------------------
+# bitbucket overview
+
+# create repository
+
+# brance : master holo mul source
+
+
+step -6 : work with bitbucket
+-----------------------------
+
+# git remote add origin url //connect repository, origin is name, origin is recommanded
+
+# git remote -v  //chack 
+
+
+step - 7 : git push(upload)
+-------------------------------
+# git push origin master //for all file upload
+
+# commit korte holy file change korte hoy
+
+step - 8: git pull (download)
+----------------------------
+# git remote project url
+
+# git pull project master
+
+# some change
+# git commit
+# fit add .
+# git push project master 
+
+# some change 
+# git commit
+# git push
+
+

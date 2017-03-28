@@ -1,0 +1,49 @@
+
+1) $ git init
+
+
+2) $ git remote add origin https://shahriarmurol@bitbucket.org/shahriarmurol/project.git
+
+
+3) $ git config --global user.name"shahriarmurol"
+
+4) $ git config --global user.email"shahriarmurol@gmial.com"
+
+
+5) $ git config user.name
+
+6) $ git config user.email
+
+
+7) $ git add .
+
+
+8) $ git commit -am"first commit"
+
+
+9) $ git push -u origin --all
+
+10) clear
+
+11) git status
+
+----------------file re commit for save as --------------
+12) $ git commit -am"second commit"
+
+
+13) $ git push -u origin --all
+
+
+
+----------- git pop for repository download ------------
+14) $ git config --global user.name"shahriar"
+
+15) $ git config user.name
+
+16) $ git config --global user.email"shahriardoc@gmail.com"
+
+17) $ git config user.email
+
+go bitbucket and click clone project 
+18) $ git clone https://shahriarmurol@bitbucket.org/shahriarmurol/project.git
+
